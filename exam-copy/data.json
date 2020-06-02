@@ -1,0 +1,193 @@
+{
+    "agents": {
+        "5d80709a3a4b4": {
+            "name": "Shawn Parkes",
+            "email": "shawn@parker.com",
+            "password": "1234",
+            "ActivationKey": "adeac4855c5c0cfded49ee3928ed723b",
+            "properties": {
+                "5d826cf2143ba": {
+                    "internalId": "5d826cf214479",
+                    "price": "900000",
+                    "bds": "1",
+                    "ba": "1",
+                    "sqft": "1",
+                    "address": {
+                        "street": "O Boulevard ",
+                        "streetnumber": "7",
+                        "zipcode": "3100",
+                        "coordinates": [
+                            12.433163,
+                            56.090637
+                        ]
+                    },
+                    "images": [
+                        "5d826cf21459e.png"
+                    ]
+                },
+                "5d826d624c40a": {
+                    "internalId": "5d826d624c8cc",
+                    "price": "400000",
+                    "bds": "3",
+                    "ba": "4",
+                    "sqft": "444",
+                    "address": {
+                        "street": "Lang gade",
+                        "streetnumber": "45",
+                        "zipcode": "3200",
+                        "coordinates": [
+                            12.153935,
+                            56.037652
+                        ]
+                    },
+                    "images": [
+                        "5d826d624cb44.png"
+                    ]
+                },
+                "5d826f9a569c3": {
+                    "internalId": "5d826f9a56cb0",
+                    "price": "900000",
+                    "bds": "8",
+                    "ba": "8",
+                    "sqft": "888",
+                    "address": {
+                        "street": "Torvegade ",
+                        "streetnumber": "3",
+                        "zipcode": "2860",
+                        "coordinates": [
+                            12.468852,
+                            55.728229
+                        ]
+                    },
+                    "images": [
+                        "5d826f9a56e2b.png"
+                    ]
+                }
+            }
+        },
+        "5d807db17f121": {
+            "name": "Elaheh Arjomandi",
+            "email": "a@a.com",
+            "password": "1234",
+            "ActivationKey": "4ef1e840ec944b69737f90d3c5edcf30",
+            "properties": {
+                "5d82703a1fb78": {
+                    "internalId": "5d82703a20030",
+                    "price": "100000",
+                    "bds": "4",
+                    "ba": "4",
+                    "sqft": "44",
+                    "address": {
+                        "street": "Liljevej ",
+                        "streetnumber": "19",
+                        "zipcode": "2650",
+                        "coordinates": [
+                            12.445374,
+                            55.643547
+                        ]
+                    },
+                    "images": [
+                        "5d82703a202d2.png"
+                    ]
+                },
+                "5d8271ac70d74": {
+                    "internalId": "5d8271ac711d2",
+                    "price": "140000",
+                    "bds": "3",
+                    "ba": "3",
+                    "sqft": "33",
+                    "address": {
+                        "street": "Rosengade",
+                        "streetnumber": "6",
+                        "zipcode": "2730",
+                        "coordinates": [
+                            12.433821,
+                            55.730594
+                        ]
+                    },
+                    "images": [
+                        "5d8271ac71584.png"
+                    ]
+                },
+                "5d8276865a9bb": {
+                    "internalId": "5d8276865af52",
+                    "price": "900000",
+                    "bds": "2",
+                    "ba": "2",
+                    "sqft": "2",
+                    "address": {
+                        "street": "O Boulevard ",
+                        "streetnumber": "2",
+                        "zipcode": "2400",
+                        "coordinates": [
+                            12.511962,
+                            55.717255
+                        ]
+                    },
+                    "images": [
+                        "5d8276865b496.png"
+                    ]
+                }
+            }
+        },
+        "5d80ab4dc0654": {
+            "name": "lia",
+            "email": "l@l.com",
+            "password": "1234",
+            "ActivationKey": "d5c7e5f8d1e16c3174a7dd61f3af4b0d",
+            "properties": {
+                "5d827099760b0": {
+                    "internalId": "5d82709976331",
+                    "price": "180000",
+                    "bds": "8",
+                    "ba": "9",
+                    "sqft": "89",
+                    "address": {
+                        "street": "Violvej",
+                        "streetnumber": "67",
+                        "zipcode": "2630",
+                        "coordinates": [
+                            12.281082,
+                            55.668885
+                        ]
+                    },
+                    "images": [
+                        "5d82709976557.png"
+                    ]
+                }
+            }
+        },
+        "5d81fd8833899": {
+            "name": "Carmen Diaz",
+            "email": "caro@gmail.com",
+            "password": "car12345",
+            "ActivationKey": "524b52cdbcce3b919a37d50bb4179c76",
+            "verified": 0,
+            "properties": {}
+        },
+        "5d82a5db9a584": {
+            "name": "Nika Nika",
+            "email": "nn@n.com",
+            "password": "12345",
+            "ActivationKey": "58f4a4288150dfa61353f08374be0b9f",
+            "verified": 1,
+            "properties": {}
+        }
+    },
+    "users": {
+        "5d81fab188008": {
+            "name": "Tina J\u00f8rgensen",
+            "email": "tina@gmail.com",
+            "password": "tina12345",
+            "ActivationKey": "2e53716b447ef6b4bd8a5fcf0c274b98",
+            "verified": 0
+        },
+        "5d82a7e37cb0e": {
+            "name": "Domi Domi",
+            "email": "dd@d.com",
+            "password": "12345",
+            "ActivationKey": "71243f8dabcea1c03df1f4498693b80a",
+            "verified": 1
+        }
+    }
+}

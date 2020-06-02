@@ -1,0 +1,328 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.div-margin {
+  margin: 15px;
+}
+form input {
+  padding: 7px;
+}
+button {
+  padding: 7px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  /* overflow: hidden; */
+  font-size: 110%;
+  font-weight: 300;
+  font-family: "Roboto Condensed";
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+.test {
+  background-color: red;
+}
+
+.menu {
+  padding-top: 5%;
+}
+
+.menu > a {
+  text-decoration: none;
+  color: black;
+  margin-top: 10%;
+  padding: 3%;
+}
+
+.menu-search{
+  margin-top: 3%;
+}
+
+a:hover {
+  color: blue;
+}
+
+#map_properties {
+  position: fixed;
+  top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: calc(100vh - 70px);
+}
+#map {
+  width: 100%;
+}
+#properties {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1px;
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+  grid-gap: 0.5em;
+  padding-right: 1em;
+  margin-bottom: 1em;
+}
+.marker {
+  display: block;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0;
+}
+.property {
+  width: 100%;
+  border: 1px solid #eee;
+  border-bottom: 0px 100px #0f58d8;
+  cursor: pointer;
+}
+
+.property img {
+  width: 100%;
+  height: 200px;
+}
+
+.active {
+  box-shadow: 0px 0px 5px 1px blue;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 0.8em 0em 0.8em;
+}
+.address {
+  padding: 0em 0.8em 0em 0.8em;
+  display: inline-block;
+}
+.price {
+  font-size: 1.5em;
+}
+.propertystats {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 1em;
+  font-size: 0.8em;
+}
+
+.propertystat {
+  margin: 0.5em 1em;
+  font-size: 0.8em;
+}
+.salestatus {
+  padding: 0em 0.8em 0em 0.8em;
+  display: inline-block;
+}
+.salestatus1{
+  padding-left: 0%;
+}
+.dot {
+  height: 9px;
+  width: 9px;
+  background-color: #e250ff;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/**************************************************/
+/* login signup */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border: 1px solid rgba(1, 1, 1, 0.3);
+}
+
+.login-a {
+  padding-top: 3%;
+}
+
+.login-body{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 120%;
+  background-color: #D1E6FF;
+}
+
+.div{
+  width: 30%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.form{
+  padding-top: 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px; 
+}
+
+.login-input{
+      width: 100%;
+      height: 45px;
+      padding-left: 10px;
+      border-radius: 5px;
+      border: none;
+      outline: none; 
+      font-size: 120%;
+} 
+
+.button{
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 120%;
+}
+.button:hover{
+background-color: #4CAF50; /* Green */
+color: white;
+}
+
+/**************************************************/
+/* profile */
+
+.profile-body{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #D1E6FF;
+}
+
+.profile-h1{
+      padding: 1% 0 2% 0;
+      text-align: center;
+  
+}
+
+.profile-h11{
+  padding: 5% 0 2% 0;
+  text-align: center;
+
+}
+.profile-h2{
+      padding: 1% 0 0 0;
+      text-align: center;
+  
+}
+
+#newPropertyForm{
+  width: 200px;
+}
+
+.profile-box{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.profile-input{
+  border-radius: 5px;
+  border:none;
+  border-bottom: 1px solid black; 
+} 
+
+.profile-name{
+  border-radius: 5px;
+  padding: 7px;
+  border:none;
+  border-bottom: 1px solid black; 
+  display: inline;  
+}
+
+/* profile user */
+
+.profile-h1-user{
+  padding: 8% 0 0 0;
+  text-align: center;
+}
+
+/**************************************************/
+/* update property */
+
+.update-property-body{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #D1E6FF;
+}
+
+.update-property-form{
+  margin-bottom: 15%;
+}
+
+/**************************************************/
+/* welcome */
+
+.welcome-body{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #D1E6FF;
+}
+
+/**************************************************/
+/* search */
+
+.searchh{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #D1E6FF;
+}
+
+.property-search{
+  width: 400px;
+  border: 1px solid black;
+}
+
+.property-search img {
+  width: 100%;
+  height: 200px;
+}

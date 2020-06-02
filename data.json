@@ -1,0 +1,23 @@
+{
+    "agents": {
+        "5d7f7a296f300": {
+            "name": "Nika Groznica",
+            "email": "n@n.com",
+            "password": "213564879",
+            "properties": {}
+        },
+        "5d7f9934d71f1": {
+            "name": "Domi Domi",
+            "email": "d@d.com",
+            "password": "dddddddddddddd",
+            "properties": {}
+        },
+        "5d809b97df1aa": {
+            "name": "Bruna Tomaic",
+            "email": "b@b.com",
+            "password": "123456879",
+            "properties": {}
+        }
+    },
+    "users": {}
+}

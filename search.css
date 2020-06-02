@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#results{
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    display: none;
+    /*background-color: gray;*/
+}
+
+.error{
+    border: 2px solid red;
+}

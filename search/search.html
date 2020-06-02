@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="search.css">
+    <title>Search</title>
+</head>
+<body>
+
+    <form id="formSearch">
+        <input name="search" id="txtSearch" type="text" placeholder="search ">
+    </form>
+
+    <div id="results">
+        <!-- <div>2400</div>
+        <div>2441</div>
+        <div>2700</div>
+        <div>3500</div>
+        <div>2400</div> -->
+    </div>
+
+    <button onclick="checkSearch()">check search</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+
+        const txtSearch = document.querySelector('#txtSearch')
+        const divResults = document.getElementById('results')
+        txtSearch.addEventListener('input', function(){
+
+            function checkSearch(){
+            if($('#txtSearch').val().lenght==0){
+            $('#txtSearch').removeClass('error')
+            $('#results').hide()
+            return
+            }
+        }
+            function checkSearch(){
+            if($('#txtSearch').val().lenght<2){
+                $('#txtSearch').addClass('error')
+            }
+            }
+
+            $.ajax({
+                url: "api-search.php",
+                data: $('#formSearch').serialize(),
+                dataType: "JSON"
+            })
+            .done(function(matches){
+                console.log(matches)
+                $('#results').empty()
+                $(matches).each(function(index, zip){
+                    
+                    zip=zip.replace(/</g, '&lt;')
+                    zip=zip.replace(/>/g, '&gt;')
+                    let divZip = `<div><a href="search.php?zip=${zip}">${zip}</a></div>`
+                    $('#results').append(divZip)
+                })
+            })
+            .fail(function(){
+                console.log('Error')
+            })
+
+            //console.log('a')
+            if(txtSearch.value.length==0){
+                divResults.style.display = 'none'
+            }else{
+                divResults.style.display = 'block'
+            }
+
+            })
+    </script>

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#results {
+  width: 100px;
+  height: 300px;
+  border: 1px solid black;
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: 3em;
+}
+#frmSearch {
+  margin: 1em;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

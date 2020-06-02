@@ -1,0 +1,252 @@
+[
+    {
+        "id": "P1",
+        "geometry": {
+            "coordinates": [
+                12.556166,
+                55.7
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p1.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "P2",
+        "geometry": {
+            "coordinates": [
+                12.456166,
+                55.65
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p2.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "P3",
+        "geometry": {
+            "coordinates": [
+                12.356166,
+                55.55
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p3.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "P4",
+        "geometry": {
+            "coordinates": [
+                12.356166,
+                55.55
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p4.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "p5",
+        "geometry": {
+            "coordinates": [
+                12.256166,
+                55.45
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p5.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "p6",
+        "geometry": {
+            "coordinates": [
+                12.256166,
+                55.45
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p6.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "p7",
+        "geometry": {
+            "coordinates": [
+                12.156166,
+                55.35
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p7.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "p8",
+        "geometry": {
+            "coordinates": [
+                12.056166,
+                55.25
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p8.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "p9",
+        "geometry": {
+            "coordinates": [
+                12,
+                55
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p9.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    },
+    {
+        "id": "p10",
+        "geometry": {
+            "coordinates": [
+                11.356166,
+                54.55
+            ],
+            "type": "Point"
+        },
+        "properties": {
+            "iconSize": [
+                20,
+                20
+            ],
+            "message": "Foo"
+        },
+        "type": "Feature",
+        "image": "./images/p10.jpg",
+        "price": 489000,
+        "bds": 3,
+        "ba": 2,
+        "sqft": 2.123,
+        "address": "16214 Oak Breeze Ct, Clermont, FL",
+        "salestatus": "New construction"
+    }
+]
